@@ -10,11 +10,11 @@ namespace BattleShip2
     {
         struct Point
         {
-            public int u;
+            public int x;
             public int y;
             public Point Set(int X, int Y)
             {
-                u = X;
+                x = X;
                 y = Y;
                 return this;
             }
@@ -250,7 +250,7 @@ namespace BattleShip2
                     randPoint = r.Next(0, lst.Count);
                     pnt = lst[randPoint];
                     lst.RemoveAt(randPoint);
-                    x1 = pnt.u;
+                    x1 = pnt.x;
                     y1 = pnt.y;
                 }
                 else
@@ -342,7 +342,7 @@ namespace BattleShip2
                         randPoint = r.Next(0, lst.Count);
                         pnt = lst[randPoint];
                         lst.RemoveAt(randPoint);
-                        x1 = pnt.u;
+                        x1 = pnt.x;
                         y1 = pnt.y;
                     }
                 }
