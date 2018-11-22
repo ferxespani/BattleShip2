@@ -240,7 +240,7 @@ namespace BattleShip2
                     }
                 }
 
-                WriteAt("Computer's turn...", 50, 4);
+                WriteAt("Computer's run...", 50, 4);
 
 
                 Point pnt = new Point();
